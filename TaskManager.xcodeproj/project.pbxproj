@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601C56152A8047900097BCBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601C56142A8047900097BCBA /* HomeView.swift */; };
+		601C562A2A804D910097BCBA /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601C56292A804D910097BCBA /* PrimaryButton.swift */; };
 		607C392D2A8045A1004AB45F /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607C392C2A8045A1004AB45F /* TaskManagerApp.swift */; };
-		607C392F2A8045A1004AB45F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607C392E2A8045A1004AB45F /* ContentView.swift */; };
 		607C39312A8045A2004AB45F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607C39302A8045A2004AB45F /* Assets.xcassets */; };
 		607C39342A8045A2004AB45F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607C39332A8045A2004AB45F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		601C56142A8047900097BCBA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		601C56292A804D910097BCBA /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrimaryButton.swift; path = ../../../../PrimaryButton.swift; sourceTree = "<group>"; };
 		607C39292A8045A1004AB45F /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607C392C2A8045A1004AB45F /* TaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
-		607C392E2A8045A1004AB45F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		607C39302A8045A2004AB45F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607C39332A8045A2004AB45F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +34,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		601C56162A804A850097BCBA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				601C561C2A804B0A0097BCBA /* SignUp */,
+				601C561B2A804B030097BCBA /* Login */,
+				601C56182A804A8E0097BCBA /* Auth */,
+				601C56172A804A8A0097BCBA /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		601C56172A804A8A0097BCBA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				607C393C2A8046D4004AB45F /* Models */,
+				607C393B2A8046CB004AB45F /* ViewModels */,
+				607C393A2A8046C6004AB45F /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		601C56182A804A8E0097BCBA /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				607C393D2A8046D8004AB45F /* DataManagers */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		601C561B2A804B030097BCBA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				601C56232A804B4F0097BCBA /* Views */,
+				601C56222A804B4A0097BCBA /* ViewModels */,
+				601C56212A804B440097BCBA /* Models */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		601C561C2A804B0A0097BCBA /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				601C56202A804B290097BCBA /* Models */,
+				601C561F2A804B1E0097BCBA /* ViewModels */,
+				601C561E2A804B1A0097BCBA /* Views */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		601C561E2A804B1A0097BCBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		601C561F2A804B1E0097BCBA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		601C56202A804B290097BCBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		601C56212A804B440097BCBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		601C56222A804B4A0097BCBA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		601C56232A804B4F0097BCBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		601C56272A804D7B0097BCBA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				601C56282A804D840097BCBA /* Components */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		601C56282A804D840097BCBA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				601C56292A804D910097BCBA /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		607C39202A8045A1004AB45F = {
 			isa = PBXGroup;
 			children = (
@@ -51,12 +160,9 @@
 		607C392B2A8045A1004AB45F /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
-				607C393D2A8046D8004AB45F /* DataManagers */,
-				607C393C2A8046D4004AB45F /* Models */,
-				607C393B2A8046CB004AB45F /* ViewModels */,
-				607C393A2A8046C6004AB45F /* Views */,
+				601C56272A804D7B0097BCBA /* Utilities */,
+				601C56162A804A850097BCBA /* Features */,
 				607C392C2A8045A1004AB45F /* TaskManagerApp.swift */,
-				607C392E2A8045A1004AB45F /* ContentView.swift */,
 				607C39302A8045A2004AB45F /* Assets.xcassets */,
 				607C39322A8045A2004AB45F /* Preview Content */,
 			);
@@ -74,6 +180,7 @@
 		607C393A2A8046C6004AB45F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				601C56142A8047900097BCBA /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,8 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607C392F2A8045A1004AB45F /* ContentView.swift in Sources */,
+				601C562A2A804D910097BCBA /* PrimaryButton.swift in Sources */,
 				607C392D2A8045A1004AB45F /* TaskManagerApp.swift in Sources */,
+				601C56152A8047900097BCBA /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
