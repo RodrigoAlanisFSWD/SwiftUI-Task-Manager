@@ -51,6 +51,10 @@
 		607C392B2A8045A1004AB45F /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				607C393D2A8046D8004AB45F /* DataManagers */,
+				607C393C2A8046D4004AB45F /* Models */,
+				607C393B2A8046CB004AB45F /* ViewModels */,
+				607C393A2A8046C6004AB45F /* Views */,
 				607C392C2A8045A1004AB45F /* TaskManagerApp.swift */,
 				607C392E2A8045A1004AB45F /* ContentView.swift */,
 				607C39302A8045A2004AB45F /* Assets.xcassets */,
@@ -65,6 +69,34 @@
 				607C39332A8045A2004AB45F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		607C393A2A8046C6004AB45F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		607C393B2A8046CB004AB45F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		607C393C2A8046D4004AB45F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		607C393D2A8046D8004AB45F /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
